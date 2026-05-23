@@ -1,0 +1,39 @@
+-------------------------------------------------------
+UNCERTAINTY REPORT  -  Inflow Forecast Uncertainty
+-------------------------------------------------------
+
+  Number of Monte Carlo scenarios  :  100
+  Error distribution               :  Normal(mean=0.0, std=0.10)
+
+  Revenue Statistics ($):
+    Deterministic (no error)  :       80.43
+    Mean                      :       77.27
+    Minimum                   :       48.39
+    Maximum                   :       89.34
+    Standard deviation        :        6.39
+    Coefficient of variation  :      0.0827
+
+  Storage Statistics (m3):
+    Deterministic final       :      652600
+    Mean final                :      638603
+
+  Key Observations:
+
+  1. Inflow uncertainty directly translates into revenue uncertainty. The spread
+     of revenue outcomes reflects the 10% standard deviation applied to inflows.
+
+  2. The deterministic solution's revenue may differ from the mean of the
+     stochastic scenarios due to the nonlinear relationship between inflow,
+     release, head, and power generation.
+
+  3. End-of-horizon storage varies significantly across scenarios, indicating
+     that the optimal release policy is sensitive to the realised inflow.
+
+  4. The boxplot of releases shows which days are most affected by inflow
+     uncertainty.  Wider boxes imply greater sensitivity to forecast errors.
+
+  5. These results highlight the value of accurate inflow forecasting for
+     reservoir operation.  A robust (stochastic) optimisation approach could
+     reduce downside risk by explicitly considering the distribution of inflows.
+
+-------------------------------------------------------
