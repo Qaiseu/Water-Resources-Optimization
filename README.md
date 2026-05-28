@@ -362,9 +362,4 @@ This project demonstrates:
 
 ## Author
 
-Douae Qais - 3125999076 - Xian Jiaotong University 
-
-
-## License
-
-This project is intended for educational and research purposes.
+Qais Douae — 3125999076 — Xi'an Jiaotong University — 2026
